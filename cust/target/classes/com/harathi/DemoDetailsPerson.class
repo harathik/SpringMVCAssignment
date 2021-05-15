@@ -1,0 +1,13 @@
+Êþº¾   2 C  com/harathi/DemoDetailsPerson  java/lang/Object username Ljava/lang/String; RuntimeVisibleAnnotations .Lorg/hibernate/validator/constraints/NotEmpty; #Ljavax/validation/constraints/Size; min    max    password .Lorg/hibernate/validator/constraints/NotBlank; email +Lorg/hibernate/validator/constraints/Email; 	contactno J   
+ city zip I       <init> ()V Code
+     LineNumberTable LocalVariableTable this Lcom/ram/DemoDetailsPerson; getUsername ()Ljava/lang/String;	  &   setUsername (Ljava/lang/String;)V getPassword	  +   setPassword getEmail	  /   setEmail getContactno ()J	  4   setContactno (J)V getCity	  9   setCity getZip ()I	  >   setZip (I)V 
+SourceFile DemoDetailsPerson.java !                  	  
+I  I                                      	  
+I  I                          	  
+I  I          /     *· ±                     ! "    # $     /     *´ %°                     ! "    ' (     >     *+µ %±       
+                ! "          ) $     /     *´ *°                     ! "    , (     >     *+µ *±       
+    !  "          ! "          - $     /     *´ .°           $          ! "    0 (     >     *+µ .±       
+    '  (          ! "          1 2     /     *´ 3­           *          ! "    5 6     >     *µ 3±       
+    -  .          ! "          7 $     /     *´ 8°           0          ! "    : (     >     *+µ 8±       
+    3  4          ! "          ; <     /     *´ =¬           6          ! "    ? @     >     *µ =±       
+    9  :          ! "          A    B
